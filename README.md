@@ -48,3 +48,23 @@ Accessibility är nära 100, jag gissar att jag kan få det till 100 om jag lusl
 Performance har droppat på mobil, osäker på när och varför(gjorde bara tester på vägen med desktop i lighthouse), men kommer vänta med det till senare.
 Jag kan navigera med tangenter märkte jag när jag testade igen, men jag ser inte vad jag navigerar till, antagligen tryckte jag inte tab tillräckligt många gånger första gången jag testade. Kan då va så att navigering med tab fungerat från start. Oklart...
 SEO har gått upp till 100, jag är osäker på varför, för jag trodde att alla ändringar jag gjorde va kopplade till accessibility. Kan va så enkelt som att jag tog bort ett par divs, la till main, ändra till en h1 gjorde skillnaden. Kankse va aria-label, men jag hade för mig att det va för navigering för blinda. Kanske minns fel.
+
+
+### Efter Index.html ändringar
+- Lighthouse Mobile
+  57 - Performance
+  100 - Accessibility
+  100 - Best Practices
+  100 - SEO
+-
+- Lighthouse Desktop
+- 73 - Performance
+  100 - Accessibility
+  100 - Best Practices
+  100 - SEO
+Fick upp accessibility i lighthouse till 100, det hade ingen påverkan på performance, men det hade varit konstigt om det hade det. outline: none va nytt för mig, men känns inte viktigt att kunna. Jag fixade till en snabb sak i script som inte matchade vad jag hade i index.
+Nu måste jag fixa performance. Minst 40% bättre, men jag tror det är baserat på vad jag hade i start, så jag får backa, köra om och se vad jag får. 
+- Just nu får jag:
+  Largest Contentful Paint
+  42.8 s
+- 
