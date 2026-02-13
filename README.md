@@ -50,15 +50,15 @@ Jag kan navigera med tangenter märkte jag när jag testade igen, men jag ser in
 SEO har gått upp till 100, jag är osäker på varför, för jag trodde att alla ändringar jag gjorde va kopplade till accessibility. Kan va så enkelt som att jag tog bort ett par divs, la till main, ändra till en h1 gjorde skillnaden. Kankse va aria-label, men jag hade för mig att det va för navigering för blinda. Kanske minns fel.
 
 
-### Efter Index.html ändringar
+### Efter styles.css ändringar
 - Lighthouse Mobile
-  57 - Performance
+  57(75 utan simulateheavywork) - Performance
   100 - Accessibility
   100 - Best Practices
   100 - SEO
 -
 - Lighthouse Desktop
-- 73 - Performance
+- 73(76 utan simulateheavywork) - Performance
   100 - Accessibility
   100 - Best Practices
   100 - SEO
