@@ -1,7 +1,4 @@
-(function simulateHeavyWork() {
-    var start = Date.now();
-    while (Date.now() - start < 200) {}
-})();
+
 
 document.addEventListener("DOMContentLoaded", function () {
     var items = document.querySelectorAll(".add-to-cart");

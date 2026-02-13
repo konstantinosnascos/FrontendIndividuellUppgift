@@ -10,21 +10,29 @@ vilket betyder att css har minst ett fel att titta på.
 
 ### Innan ändringar
 - Lighthouse Mobile
-  62
-  Performance
-  78
-  Accessibility
-  100
-  Best Practices
-  91
-  SEO
+  62 - Performance
+  78 - Accessibility
+  100 - Best Practices
+  91 - SEO
 - 
 - Lighthouse Desktop
-- 74
-  Performance
-  78
-  Accessibility
-  100
-  Best Practices
-  91
-  SEO
+- 74 - Performance
+  78 - Accessibility
+  100 - Best Practices
+  91 - SEO
+
+
+### Efter tagit  bort simulateHeavyWork()
+- Lighthouse Mobile
+  75 - Performance
+  78 - Accessibility
+  100 - Best Practices
+  91 - SEO
+-
+- Lighthouse Desktop
+- 76 - Performance
+  78 - Accessibility
+  100 - Best Practices
+  91 - SEO
+
+Viss skillnad på mobil
