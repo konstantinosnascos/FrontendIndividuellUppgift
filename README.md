@@ -31,17 +31,20 @@ vilket betyder att css har minst ett fel att titta på.
   91 - SEO
 
 
-### Efter tagit  bort simulateHeavyWork()
+### Efter Index.html ändringar
 - Lighthouse Mobile
-  75 - Performance
-  78 - Accessibility
+  57 - Performance
+  96 - Accessibility
   100 - Best Practices
-  91 - SEO
+  100 - SEO
 -
 - Lighthouse Desktop
-- 76 - Performance
-  78 - Accessibility
+- 73 - Performance
+  96 - Accessibility
   100 - Best Practices
-  91 - SEO
+  100 - SEO
 
-Viss skillnad på mobil
+Accessibility är nära 100, jag gissar att jag kan få det till 100 om jag lusläser css-filen
+Performance har droppat på mobil, osäker på när och varför(gjorde bara tester på vägen med desktop i lighthouse), men kommer vänta med det till senare.
+Jag kan navigera med tangenter märkte jag när jag testade igen, men jag ser inte vad jag navigerar till, antagligen tryckte jag inte tab tillräckligt många gånger första gången jag testade. Kan då va så att navigering med tab fungerat från start. Oklart...
+SEO har gått upp till 100, jag är osäker på varför, för jag trodde att alla ändringar jag gjorde va kopplade till accessibility. Kan va så enkelt som att jag tog bort ett par divs, la till main, ändra till en h1 gjorde skillnaden. Kankse va aria-label, men jag hade för mig att det va för navigering för blinda. Kanske minns fel.
