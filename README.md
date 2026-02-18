@@ -110,3 +110,9 @@ Komprimerat om och gjort till webp bilder nu. på desktop är det fortfarande 10
 Efter jag lagt till lazy loading är performance uppe på 96 igen, så det va kanske inte en nödvändig ändring. Bilderna va redan relativt små.
 
 Jag la till width och height på bilderna, men jag tycker inte det gör någon skillnad, inte heller om jag sänkte hastighet till 3g.
+
+
+Jag har lagt till axe, detta är vad jag fick:
+axe violations: 0
+axe passes: 39 
+nu måste jag gå tillbaka i historiken och testa med axe innan jag gjorde några ändringar. Jag tyckte lighthouse gav tydligare resultat och va lättare att köra.
