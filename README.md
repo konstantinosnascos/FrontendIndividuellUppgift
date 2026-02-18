@@ -108,3 +108,5 @@ Jag har komprimerat om bilderna till 600 pixlar i bredd(dubbla det för att hål
 
 Komprimerat om och gjort till webp bilder nu. på desktop är det fortfarande 100 på allt, mobile är det 94 på performance.
 Efter jag lagt till lazy loading är performance uppe på 96 igen, så det va kanske inte en nödvändig ändring. Bilderna va redan relativt små.
+
+Jag la till width och height på bilderna, men jag tycker inte det gör någon skillnad, inte heller om jag sänkte hastighet till 3g.
