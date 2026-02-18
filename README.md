@@ -125,3 +125,45 @@ Rule: html-has-lang Impact: serious Nodes: 1
 Rule: image-alt Impact: critical Nodes: 4
 Rule: landmark-one-main Impact: moderate Nodes: 1
 Rule: region Impact: moderate Nodes: 5
+
+
+efter axe las till sjönk performance i lighthouse (94). Jag tryckte in på LCP och där nämndes specifikt fetchpriority high, så jag la in det i index och performance steg (95).
+
+
+Nu har jag testat att köra lighthouse i edge. Resultaten är lika men inte identiska.
+detta är mobile i edge:
+- 94 - Performance
+  100 - Accessibility
+  100 - Best Practices
+  100 - SEO
+det är lägre performance för "Total Blocking Time" är högre.
+  detta är desktop i edge:
+- 100 - Performance
+  96 - Accessibility
+  100 - Best Practices
+  100 - SEO
+i desktop klagar den på :
+  Background and foreground colors do not have a sufficient contrast ratio.
+- båda mäter samma saker men ger olika resultat, jag måste läsa på om varför.
+- Lighthouse verkar inte finnas i firefox. Jag gissar att det är därför 
+
+När jag la till PerformanceObserver i script.js sjönk performance, jag kommenterade ut axe och det löste problemet.
+
+Detta fick jag från firefox:
+LCP element:
+<h1>
+script.js:22:21
+LCP time: 82 ms script.js:23:21
+LCP element: 
+<img class="hero-image" src="images/pexels-photo-373912.webp" alt="A city photographed from… air downwards at night" fetchpriority="high">
+script.js:22:21
+LCP time: 98 ms
+
+Detta från chrome:
+LCP element: <img src=​"images/​pexels-photo-373912.webp" class=​"hero-image" alt=​"A city photographed from the air downwards at night" fetchpriority=​"high">​
+script.js:23 LCP time: 116 ms
+
+Detta från edge:
+[Intervention] Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+script.js:22 LCP element: <img src=​"images/​pexels-photo-373912.webp" class=​"hero-image" alt=​"A city photographed from the air downwards at night" fetchpriority=​"high">​
+script.js:23 LCP time: 148 ms
