@@ -116,3 +116,12 @@ Jag har lagt till axe, detta är vad jag fick:
 axe violations: 0
 axe passes: 39 
 nu måste jag gå tillbaka i historiken och testa med axe innan jag gjorde några ändringar. Jag tyckte lighthouse gav tydligare resultat och va lättare att köra.
+
+
+detta va axe när jag hoppade bak
+axe violations: 5
+Rule: color-contrast Impact: serious Nodes: 18
+Rule: html-has-lang Impact: serious Nodes: 1
+Rule: image-alt Impact: critical Nodes: 4
+Rule: landmark-one-main Impact: moderate Nodes: 1
+Rule: region Impact: moderate Nodes: 5
