@@ -88,3 +88,11 @@ detta är mobile:
   100 - Accessibility
   100 - Best Practices
   100 - SEO
+
+Jag tittar på del 3 nu. LCP blev ju mycket bättre när bilderna komprimerades. 
+
+Largest Contentful Paint
+2.9 s
+detta är från senaste körningen av lighthouse. Så prestandan är ju redan tillräckligt förbättrad, men där ska vara minst 3 förbättringar av prestanda. Jag tog ju bort simulateHeaveWork tidigare, det är 2.
+
+
