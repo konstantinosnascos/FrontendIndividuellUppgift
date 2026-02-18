@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var newsletterButton = document.querySelector(".newsletter .primary-button");
     if (newsletterButton) {
-        newsletterButton.addEventListener("submit", function (e) {
+        newsletterButton.addEventListener("click", function (e) {
             e.preventDefault();
             alert("Thank you for subscribing!");
         });
