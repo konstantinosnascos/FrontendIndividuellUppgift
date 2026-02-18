@@ -76,3 +76,15 @@ Del 2 är tillgänglighetskrav klara, navigering med tangenter fungerar(kanske h
 bakgrundsbilden kommer sättas till 1600 bredd(tänker desktop)
 korten är 300 pixlar breda, så det blir en rimlig storlek också tänker jag.
 kommer göra det på https://squoosh.app/editor och om jag minns rätt så görs höjd då automatiskt
+
+efter komprimering så kördes lighthouse igen:
+detta är mobile:
+- 95 - Performance
+  100 - Accessibility
+  100 - Best Practices
+  100 - SEO
+  detta är desktop:
+- 100 - Performance
+  100 - Accessibility
+  100 - Best Practices
+  100 - SEO
