@@ -102,3 +102,5 @@ Jag har också redan flyttat script till slutet(jag tror att många saker jag ko
 jag har inte satt width och height på bilder än, redan tagit bort onödigt script, det står dela upp css men fick inte skapa fler filer, kommer inte dela upp.
 
 Jag har inte antagit att en av bilderna va LCP, det står ju i instruktionerna.
+
+Jag tycker bilderna ser oskarpa ut, kanske ska ändra till fler pixlar än bredd på card. Kanske kollade på fel del i css när jag valde storlek på bilder, kanske borde komprimera om original till lite större och köra om lighthouse efter. kan dock ändra till webp när jag ändå är igång.
