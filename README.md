@@ -67,4 +67,12 @@ Nu måste jag fixa performance. Minst 40% bättre, men jag tror det är baserat 
 - Just nu får jag:
   Largest Contentful Paint
   42.8 s
-- 
+
+Jag har läst igenom instruktionerna igen. Glömmer bort att hänvisa till dom titt som tätt. Del 1 är gjord korrekt.
+Del 2 är tillgänglighetskrav klara, navigering med tangenter fungerar(kanske hade kunnat ändra så det blev ännu tydligare var man är), bilder har alt-attribut, men är inte komprimerade än. Kontrast är fixad. aria attrbut där det ska vara är fixat.
+
+
+-Komprimera bilder
+bakgrundsbilden kommer sättas till 1600 bredd(tänker desktop)
+korten är 300 pixlar breda, så det blir en rimlig storlek också tänker jag.
+kommer göra det på https://squoosh.app/editor och om jag minns rätt så görs höjd då automatiskt
