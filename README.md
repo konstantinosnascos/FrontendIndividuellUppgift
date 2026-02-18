@@ -96,3 +96,9 @@ Largest Contentful Paint
 detta är från senaste körningen av lighthouse. Så prestandan är ju redan tillräckligt förbättrad, men där ska vara minst 3 förbättringar av prestanda. Jag tog ju bort simulateHeaveWork tidigare, det är 2.
 Jag la till loading= lazy på bilderna. och det öka performance med +1. Tekniskt sätt är det 3 förbättringar. Men det hade varit kul att ta alla till 100 även på mobile.
 
+Jag tror att jag bara antagit hela vägen att bilderna va LCP, men kan gå tillbaka och testa tidigare variant senare. Jag valde att inte ändra från jpeg eller jpg för jag tänkte att det skulle då räknas som en "ny" fil, men det står i del 3 att man kan ändra till webP. Läs noggrannare nästa gång...
+
+Jag har också redan flyttat script till slutet(jag tror att många saker jag kom fram till en månad sen har implementerats utan att jag läst igenom instruktionerna noggrant innan jag satte igång förra veckan),
+jag har inte satt width och height på bilder än, redan tagit bort onödigt script, det står dela upp css men fick inte skapa fler filer, kommer inte dela upp.
+
+Jag har inte antagit att en av bilderna va LCP, det står ju i instruktionerna.
