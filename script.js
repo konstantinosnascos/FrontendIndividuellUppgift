@@ -15,6 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    if ("PerformanceObserver" in window) {
+        var lcpObserver = new PerformanceObserver(function (entryList) {
+            var entries = entryList.getEntries();
+            var lastEntry = entries[entries.length - 1];
+            console.log("LCP element:", lastEntry.element);
+            console.log("LCP time:", lastEntry.startTime, "ms");
+        });
+        lcpObserver.observe({ type: "largest-contentful-paint", buffered: true });
+    }
+
     if (typeof axe !== "undefined") {
         axe.run().then(function (results) {
             console.log("axe violations:", results.violations.length);
