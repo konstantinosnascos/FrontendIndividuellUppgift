@@ -167,3 +167,5 @@ Detta från edge:
 [Intervention] Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
 script.js:22 LCP element: <img src=​"images/​pexels-photo-373912.webp" class=​"hero-image" alt=​"A city photographed from the air downwards at night" fetchpriority=​"high">​
 script.js:23 LCP time: 148 ms
+
+Sista steg om jag förstår det rätt är att gå tillbaka och testa originalet med performance observer
