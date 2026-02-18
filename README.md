@@ -94,5 +94,5 @@ Jag tittar på del 3 nu. LCP blev ju mycket bättre när bilderna komprimerades.
 Largest Contentful Paint
 2.9 s
 detta är från senaste körningen av lighthouse. Så prestandan är ju redan tillräckligt förbättrad, men där ska vara minst 3 förbättringar av prestanda. Jag tog ju bort simulateHeaveWork tidigare, det är 2.
-
+Jag la till loading= lazy på bilderna. och det öka performance med +1. Tekniskt sätt är det 3 förbättringar. Men det hade varit kul att ta alla till 100 även på mobile.
 
