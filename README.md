@@ -168,4 +168,23 @@ Detta från edge:
 script.js:22 LCP element: <img src=​"images/​pexels-photo-373912.webp" class=​"hero-image" alt=​"A city photographed from the air downwards at night" fetchpriority=​"high">​
 script.js:23 LCP time: 148 ms
 
-Sista steg om jag förstår det rätt är att gå tillbaka och testa originalet med performance observer
+Sista steg om jag förstår det rätt är att gå tillbaka och testa originalet med performance observer.
+
+chrome innan bildkomprimering
+LCP element: <img src=​"images/​pexels-photo-373912.jpeg" class=​"hero-image" alt=​"A city photographed from the air downwards at night">​
+script.js:23 LCP time: 692 ms
+
+firefox innan bildkomprimering:
+LCP element:
+<h1>
+script.js:22:21
+LCP time: 72 ms script.js:23:21
+LCP element: 
+<img class="hero-image" src="images/pexels-photo-373912.jpeg" alt="A city photographed from… air downwards at night">
+script.js:22:21
+LCP time: 152 ms
+
+edge innan bildkomprimering:
+LCP element: <img src=​"images/​pexels-photo-461428.jpeg" class=​"product-image" alt=​"A wooden table from above with bowls and spoons and sand placed to the left">​
+script.js:23 LCP time: 1036 ms
+
